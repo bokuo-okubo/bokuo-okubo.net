@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="180" viewBox="0 0 180 180">
+  <defs>
+    <filter id="g" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="3.2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="180" height="180" rx="38" fill="#000000"/>
+  <rect x="6" y="6" width="168" height="168" rx="32" fill="none" stroke="#ffb000" stroke-opacity="0.55" stroke-width="3"/>
+  <text x="90" y="92" fill="#ff2d12" filter="url(#g)"
+        font-family="'Helvetica Neue', Arial, sans-serif" font-weight="800"
+        font-size="118" letter-spacing="-4" text-anchor="middle" dominant-baseline="central">24</text>
+</svg>
